@@ -1,0 +1,615 @@
+Message-ID: <502947120.45849.1584676621845.JavaMail.root@confluence>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_45848_998731869.1584676621845"
+
+------=_Part_45848_998731869.1584676621845
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>mod_rayo</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>mod_rayo</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"mod_rayo-About">About</h1>
+<p>mod_rayo is a server implementation of the <a class=3D"external-link" hr=
+ef=3D"http://rayo.org" rel=3D"nofollow">Rayo protocol</a> for FreeSWITCH. R=
+ayo clients, like <a href=3D"http://adhearsion.com" class=3D"external-link"=
+ rel=3D"nofollow">Adhearsion</a> use this protocol to control calls.</p>
+<div class=3D"panel" style=3D"background-color: #f7f7f7;border-color: light=
+gray;border-style: dotted;border-width: 1px;">
+<div class=3D"panelContent" style=3D"background-color: #f7f7f7;">=20
+<p></p>=20
+</div>
+</div>
+<h1 id=3D"mod_rayo-Installing"><span class=3D"mw-headline">Installing </spa=
+n></h1>
+<p>To use mod_rayo tell FreeSWITCH to compile in this module by editing mod=
+ules.conf in /usr/src/freeswitch and adding:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>modules.conf</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: xml; gutter: false; theme: Emacs" data-theme=3D"Emacs">event_handlers/mod=
+_rayo
+formats/mod_ssml</pre>=20
+</div>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-not=
+e">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-warning confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p><a href=3D"/confluence/display/FREESWITCH/mod_ssml">mod_ssml</a> is REQU=
+IRED by mod_rayo</p>
+</div>
+</div>
+<p>&nbsp;</p>
+<p>Now recompile FreeSWITCH.</p>
+<pre>make
+make install
+</pre>
+<p>Tell FreeSWITCH to use the modules when running by adding them to module=
+s.conf.xml in /usr/local/freeswitch/conf/autoload_configs:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>modules.conf.xml</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: xml; gutter: false; theme: Emacs" data-theme=3D"Emacs">&lt;load module=3D=
+"mod_rayo"/&gt;
+&lt;load module=3D"mod_ssml"/&gt;&nbsp;</pre>=20
+</div>
+</div>
+<h1 id=3D"mod_rayo-Configuration"><span class=3D"mw-headline">Configuration=
+ </span></h1>
+<p>The conf/autoload_configs/rayo.conf.xml file contains the following conf=
+iguration settings. An example configuration is located in conf/rayo and ca=
+n be installed with</p>
+<pre>make config-rayo</pre>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>It is recommended that you start with the example rayo config and adjust=
+ the xmpp settings as needed</p>
+</div>
+</div>
+<h2 id=3D"mod_rayo-CoreSettings"><span class=3D"mw-headline">Core Settings<=
+/span></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>rayo.conf.xml</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: xml; gutter: false; theme: Emacs" data-theme=3D"Emacs">&lt;settings&gt;
+  &lt;!-- maximum time in seconds to allow a call controlled by rayo to be =
+idle.  Idle time is time measured since the last=20
+       command executed on the call.  Bridged (or conferenced) calls do not=
+ count as idle.  Increase this value as needed --&gt;
+  &lt;param name=3D"max-idle-sec" value=3D"300"/&gt;
+  &lt;!-- leave unchanged - this defines the mod_conference profile to use =
+for mixers --&gt;
+  &lt;param name=3D"mixer-conf-profile" value=3D"sla"/&gt;
+  &lt;!-- if true (default), to attribute in offer has URI instead of desti=
+nation number --&gt;
+  &lt;param name=3D"offer-uri" value=3D"true"/&gt;
+  &lt;!-- if true (false is default), channel variables are added to rayo c=
+lient offer --&gt;
+  &lt;param name=3D"add-variables-to-offer" value=3D"false"/&gt;
+&lt;/settings&gt;
+</pre>=20
+</div>
+</div>
+<h2 id=3D"mod_rayo-RecordingSettings"><span class=3D"mw-headline">Recording=
+ Settings</span></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>rayo.conf.xml</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: xml; gutter: false; theme: Emacs" data-theme=3D"Emacs">&lt;record&gt;
+  &lt;!-- This is the location to store recordings --&gt;
+  &lt;param name=3D"record-file-prefix" value=3D"$${recordings-dir}"/&gt;
+&lt;/record&gt;</pre>=20
+</div>
+</div>
+<p>&nbsp;</p>
+<h2 id=3D"mod_rayo-InputSettings"><span class=3D"mw-headline">Input Setting=
+s</span></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1px=
+;">
+<b>rayo.conf.xml</b>
+</div>
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: xml; gutter: false; theme: Emacs" data-theme=3D"Emacs">&lt;input&gt;
+  &lt;!-- This is the name of the ASR engine to use if none is specified by=
+ the Rayo client --&gt;
+  &lt;param name=3D"default-recognizer" value=3D"pocketsphinx"/&gt;
+&lt;/input&gt;</pre>=20
+</div>
+</div>
+<h2 id=3D"mod_rayo-FaxSettings"><span class=3D"mw-headline">Fax Settings</s=
+pan></h2>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: xml; gutter: false; theme: Emacs" data-theme=3D"Emacs">&lt;fax&gt;
+  &lt;!-- Location to store incoming faxes.  Can be a filesystem directory =
+or an HTTP URL to PUT --&gt;
+  &lt;param name=3D"receivefax-file-prefix" value=3D"/tmp/"/&gt;
+&lt;/fax&gt;</pre>=20
+</div>
+</div>
+<h2 id=3D"mod_rayo-CallProgressAnalysisSettings"><span class=3D"mw-headline=
+">Call Progress Analysis Settings</span></h2>
+<p>Call progress analysis allows the client to request FS to monitor for dt=
+mf, call progress tones, fax tones, voicemail beeps, etc. This feature work=
+s by mapping the dialplan applications and their detection events to Rayo C=
+PA signal-types (fax-ced, fax-cng, beep, speech, dtmf, etc). If you have an=
+ alternative detector for specific tones, simply specify the new detector's=
+ dialplan start/stop app and the events emitted.</p>
+<p>The only restriction is that no detector may detect the same event/subcl=
+ass as previously defined detector.</p>
+<pre>  &lt;cpa&gt;
+    &lt;!-- map DTMF events to CPA --&gt;
+    &lt;detector name=3D"core_dtmf_event"&gt;
+      &lt;!-- map the FS core DTMF event to the Rayo dtmf signal-type --&gt=
+;
+      &lt;event class=3D"DTMF" value-header=3D"DTMF-Digit" duration-header=
+=3D"DTMF-Duration"&gt;
+        &lt;signal-type value=3D"dtmf"/&gt;
+      &lt;/event&gt;
+    &lt;/detector&gt;
+
+    &lt;!-- map mod_spandsp fax detector to the Rayo CPA events. Fires DETE=
+CTED_FAX_* event once and quits. --&gt;
+    &lt;detector name=3D"mod_spandsp_fax_ced"&gt;
+      &lt;start application=3D"spandsp_start_fax_detect" data=3D"event 'Eve=
+nt-Name=3DCUSTOM,Event-Subclass=3DDETECTED_FAX_CED' 500 ced"/&gt;
+      &lt;stop application=3D"spandsp_stop_fax_detect" data=3D""/&gt;
+      &lt;event class=3D"CUSTOM" subclass=3D"DETECTED_FAX_CED"&gt;
+        &lt;signal-type value=3D"fax-ced"/&gt;
+      &lt;/event&gt;
+    &lt;/detector&gt;
+
+    &lt;detector name=3D"mod_spandsp_fax_cng"&gt;
+      &lt;start application=3D"spandsp_start_fax_detect" data=3D"event 'Eve=
+nt-Name=3DCUSTOM,Event-Subclass=3DDETECTED_FAX_CNG' 500"/&gt;
+      &lt;stop application=3D"spandsp_stop_fax_detect" data=3D""/&gt;
+      &lt;event class=3D"CUSTOM" subclass=3D"DETECTED_FAX_CNG"&gt;
+        &lt;signal-type value=3D"fax-cng"/&gt;
+      &lt;/event&gt;
+    &lt;/detector&gt;
+
+    &lt;!-- map mod_spandsp call progress tone detector to Rayo CPA signal =
+events.  Fires DETECTED_TONE events until stopped. --&gt;
+    &lt;detector name=3D"mod_spandsp_tone"&gt;
+      &lt;start application=3D"start_tone_detect" data=3D"1"/&gt;
+      &lt;stop application=3D"stop_tone_detect" data=3D""/&gt;
+      &lt;!-- map tone events to Rayo CPA signal type --&gt;
+      &lt;event class=3D"CUSTOM" subclass=3D"DETECTED_TONE" type-header=3D"=
+Detected-Tone"&gt;
+        &lt;signal-type header-value=3D"SIT" value=3D"sit"/&gt;
+        &lt;signal-type header-value=3D"BUSY_TONE" value=3D"busy"/&gt;
+        &lt;signal-type header-value=3D"REORDER_TONE" value=3D"congestion"/=
+&gt;
+        &lt;signal-type header-value=3D"RING_TONE" value=3D"ring"/&gt;
+      &lt;/event&gt;
+    &lt;/detector&gt;
+
+    &lt;!-- map mod_avmd detector to Rayo CPA beep event.  Fires avmd::beep=
+ event once. --&gt;
+    &lt;detector name=3D"mod_avmd"&gt;
+      &lt;start application=3D"avmd" data=3D""/&gt;
+      &lt;stop application=3D"avmd" data=3D"stop"/&gt;
+      &lt;event class=3D"CUSTOM" subclass=3D"avmd::beep"&gt;
+        &lt;signal-type value=3D"beep"/&gt;
+      &lt;/event&gt;
+    &lt;/detector&gt;
+
+    &lt;!-- Alternative beep detector using mod_vmd.  Fires vmd::beep event=
+s until stopped. --&gt;
+    &lt;!--detector name=3D"mod_vmd"&gt;
+      &lt;start application=3D"vmd" data=3D""/&gt;
+      &lt;stop application=3D"vmd" data=3D"stop"/&gt;
+      &lt;event class=3D"CUSTOM" subclass=3D"vmd::beep"&gt;
+        &lt;signal-type value=3D"beep"/&gt;
+      &lt;/event&gt;
+    &lt;/detector--&gt;
+  &lt;cpa&gt;
+</pre>
+<h3 id=3D"mod_rayo-XMPPsettings"><span class=3D"mw-headline">XMPP settings<=
+/span></h3>
+<p>mod_rayo is an XMPP server. mod_rayo currently only supports serving a s=
+ingle XMPP domain.</p>
+<p>insecure XMPP client connection example (use only on private networks!!!=
+)</p>
+<pre>  &lt;!-- Set up server for rayo.example.com.  Accept client connectio=
+ns to 10.50.0.10 from usera@rayo.example.com.  --&gt;
+  &lt;domain name=3D"rayo.example.com" shared-secret=3D"ClueCon"&gt;
+    &lt;listen type=3D"c2s" port=3D"5222" address=3D"10.50.0.10" acl=3D""/&=
+gt;
+    &lt;!-- Authorized users --&gt;
+    &lt;users&gt;
+       &lt;user name=3D"usera" password=3D"1"/&gt;
+    &lt;/users&gt;
+  &lt;/domain&gt;
+</pre>
+<p>Secure XMPP client connection example. This example requires TLS when co=
+nnecting to mod_rayo. You will need to generate a certificate and private k=
+ey and store them in the certs directory.</p>
+<pre>  &lt;!-- Set up server for rayo.example.com.  Accept secure client co=
+nnections to 10.50.0.10 from usera@rayo.example.com. --&gt;
+  &lt;domain name=3D"rayo.example.com" shared-secret=3D"ClueCon" cert=3D"$$=
+{base_dir}/certs/rayo.example.com.crt"=20
+       key=3D"$${base_dir}/certs/rayo.example.com.key"&gt;
+    &lt;listen type=3D"c2s" port=3D"5222" address=3D"10.50.0.10" acl=3D""/&=
+gt;
+    &lt;!-- Authorized users --&gt;
+    &lt;users&gt;
+      &lt;user name=3D"usera" password=3D"1"/&gt;
+    &lt;/users&gt;
+  &lt;/domain&gt;
+</pre>
+<p>The acl param is also available for an added layer of security. When ena=
+bled, only XMPP clients in approved networks will be accepted. Create a "ra=
+yo-clients" acl in conf/autoload_configs/acl.conf.xml and set the acl param=
+:</p>
+<pre>   &lt;listen type=3D"c2s" port=3D"5222" address=3D"10.50.0.10" acl=3D=
+"rayo-clients"/&gt;
+</pre>
+<h3 id=3D"mod_rayo-Dialgateways"><span class=3D"mw-headline">Dial gateways<=
+/span></h3>
+<p>Dial gateways define call endpoint routes by mapping URI prefixes to Fre=
+eSWITCH dialstring prefixes. This allows Rayo to do things like route a cal=
+l addressed by phone number to the PSTN over a FreeTDM endpoint vs. routing=
+ a call with a SIP URI over a mod_sofia gateway.</p>
+<p>"default" is a reserved dial prefix that matches when all other matches =
+fail.</p>
+<pre>  &lt;dial-gateways&gt;
+    &lt;!-- default gateway - calls sent to outbound gateway if no dialpref=
+ix match is found --&gt;
+    &lt;dial-gateway uriprefix=3D"default" dialprefix=3D"sofia/gateway/outb=
+ound/" strip=3D"0"/&gt;
+
+    &lt;!-- send SIP URI to mod_sofia --&gt;
+    &lt;dial-gateway uriprefix=3D"sip:" dialprefix=3D"sofia/external/" stri=
+p=3D"0"/&gt;
+
+    &lt;!-- send tel:+16171234567 to mod_sofia after removing the tel: --&g=
+t;
+    &lt;dial-gateway uriprefix=3D"tel:" dialprefix=3D"sofia/gateway/outboun=
+d/" strip=3D"4"/&gt;
+
+    &lt;!-- Some examples of how to allow Rayo client to specify the FreeSW=
+ITCH dialstring --&gt;
+    &lt;!-- pass through user and sofia unaltered --&gt;
+    &lt;dial-gateway uriprefix=3D"user" dialprefix=3D"" strip=3D""/&gt;
+    &lt;dial-gateway uriprefix=3D"sofia" dialprefix=3D"" strip=3D""/&gt;
+ &lt;/dial-gateways&gt;
+</pre>
+<h3 id=3D"mod_rayo-Aliases"><span class=3D"mw-headline">Aliases</span></h3>
+<p>Aliases are useful for testing. They allow you to map XMPP IQ requests t=
+o a short command. If the command is an IQ set command, you can omit the IQ=
+ from the alias as it is assumed by default.</p>
+<p>An alias requires a "target". This target is used to assist with command=
+ autocompletion. That is, if the alias target is "call", then the alias wil=
+l only suggest active calls when you tab autocomplete.</p>
+<p>The possible targets are:</p>
+<ul>
+<li>all</li>
+<li>call</li>
+<li>component (any component input/output/record/prompt)</li>
+<li>external (clients and peer servers)</li>
+<li>input (input components)</li>
+<li>internal (anything not external)</li>
+<li>server (mod_rayo server)</li>
+<li>output (output components)</li>
+<li>record (record components)</li>
+</ul>
+<pre>  &lt;aliases&gt;
+    &lt;!-- Answer a call offered to a Rayo client --&gt;
+    &lt;alias name=3D"answer" target=3D"call"&gt;&lt;![CDATA[&lt;answer xml=
+ns=3D"urn:xmpp:rayo:1"/&gt;]]&gt;&lt;/alias&gt;
+    &lt;!-- Stop an active component --&gt;
+    &lt;alias name=3D"stop" target=3D"component"&gt;&lt;![CDATA[&lt;stop xm=
+lns=3D"urn:xmpp:rayo:ext:1"/&gt;]]&gt;&lt;/alias&gt;
+    &lt;!-- Pause output --&gt;
+    &lt;alias name=3D"pause" target=3D"output"&gt;&lt;![CDATA[&lt;pause xml=
+ns=3D"urn:xmpp:rayo:output:1"/&gt;]]&gt;&lt;/alias&gt;
+    &lt;!-- Resume recording --&gt;
+    &lt;alias name=3D"record_resume" target=3D"record"&gt;&lt;![CDATA[&lt;r=
+esume xmlns=3D"urn:xmpp:rayo:record:1"/&gt;]]&gt;&lt;/alias&gt;
+  &lt;/aliases&gt;
+</pre>
+<h2 id=3D"mod_rayo-rayoAPP"><span class=3D"mw-headline"> rayo APP </span></=
+h2>
+<p>Offer call to Rayo client. This is similar to the <a href=3D"/confluence=
+/display/FREESWITCH/Event+Socket+Outbound">Outbound Event Socket</a> "socke=
+t" application. If there are no Rayo clients connected to FreeSWITCH when t=
+he call is offered, the call is rejected.</p>
+<pre>  &lt;extension name=3D"rayo"&gt;
+     &lt;condition&gt;
+       &lt;!-- Offer call to rayo client --&gt;
+       &lt;action application=3D"rayo"/&gt;
+     &lt;/condition&gt;
+  &lt;/extension&gt;
+</pre>
+<h2 id=3D"mod_rayo-rayoAPI"><span class=3D"mw-headline"> rayo API </span></=
+h2>
+<p>Rayo admin console</p>
+<p>This API is primarily for testing or checking the status of calls offere=
+d to Rayo clients.</p>
+<h3 id=3D"mod_rayo-rayo<alias><jid>"><span class=3D"mw-headline"> rayo &lt;=
+alias&gt; &lt;jid&gt; </span></h3>
+<p>Execute an alias on a target JID</p>
+<pre>  rayo answer a12dg45-123ffg-2314f@rayo.example.com
+</pre>
+<h3 id=3D"mod_rayo-rayostatus"><span class=3D"mw-headline"> rayo status </s=
+pan></h3>
+<p>Show current status of all XMPP entities. This lists all active clients/=
+calls/mixers/servers/components.</p>
+<pre>  rayo status
+</pre>
+<h3 id=3D"mod_rayo-rayocmd<jid><XMPPrequest>"><span class=3D"mw-headline"> =
+rayo cmd &lt;jid&gt; &lt;XMPP request&gt; </span></h3>
+<p>Send an XMPP &lt;iq&gt; request to an XMPP entity.</p>
+<p>The IQ request is automatically filled with the proper from and to JIDs =
+(Jabber IDs).</p>
+<pre>  rayo cmd 10.50.0.10 &lt;iq type=3D"get"&gt;&lt;ping xmlns=3D"urn:xmp=
+p:ping"/&gt;&lt;/iq&gt;
+</pre>
+<h3 id=3D"mod_rayo-rayopresence<jid>online|offline"><span class=3D"mw-headl=
+ine"> rayo presence &lt;jid&gt; online|offline </span></h3>
+<p>Send admin console &lt;presence&gt; to mod_rayo server.</p>
+<p>By default, the admin console is offline and will not be offered calls. =
+If you wish to test a call over via the console, you must send online prese=
+nce to the mod_rayo server.</p>
+<pre>  rayo presence 10.50.0.10 online
+</pre>
+<p>Now calls will be offered to the console client. "rayo answer &lt;jid&gt=
+;" will take control of the call.</p>
+<h3 id=3D"mod_rayo-rayomsg<jid><textmessage>"><span class=3D"mw-headline"> =
+rayo msg &lt;jid&gt; &lt;text message&gt; </span></h3>
+<p>Send a &lt;message&gt; to an XMPP entity</p>
+<pre>  rayo msg c888@rayo.example.com How are you today?
+</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+    </div>
+</body>
+</html>
+------=_Part_45848_998731869.1584676621845--
