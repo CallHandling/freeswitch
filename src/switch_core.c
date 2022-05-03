@@ -41,6 +41,7 @@
 #include <switch_ssl.h>
 #include <switch_stun.h>
 #include <switch_nat.h>
+#include "private/switch_apr_pvt.h"
 #include "private/switch_core_pvt.h"
 #include <switch_curl.h>
 #include <switch_msrp.h>
@@ -1404,7 +1405,7 @@ SWITCH_DECLARE(switch_bool_t) switch_check_network_list_ip_port_token(const char
 	} else if (strchr(list_name, '/')) {
 		if (strchr(list_name, ',')) {
 			char *list_name_dup = strdup(list_name);
-			char *argv[32];
+			char *argv[100]; /* MAX ACL */
 			int argc;
 
 			switch_assert(list_name_dup);
