@@ -2,7 +2,7 @@
   <extension name="Event Socket" >
     <condition field="destination_number" expression="\d+">
         <action application="set" data="transfer_ringback=$${hold_music}"/>
-        <action application="socket" data="192.168.0.21:1234 async full"/>
+        <action application="socket" data="192.168.1.113:1234 async full"/>
         <action application="set" data="playback_delimiter=&"/>
     </condition>
   </extension>
